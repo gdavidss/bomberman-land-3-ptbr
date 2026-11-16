@@ -14,14 +14,14 @@ Você precisa da ISO japonesa original, com este SHA-1:
 18b28c04356378540e71258fdbe4fd9564e733d8
 ```
 
-Baixe o arquivo `Bomberman Land 3 PT-BR.xdelta` na página de [Releases](../../releases) e aplique de um destes jeitos.
+Baixe o arquivo `Bomberman.Land.3.PT-BR.xdelta` na página de [Releases](../../releases) e aplique de um destes jeitos.
 
 - **No navegador**, pelo [Rom Patcher JS](https://www.marcrobledo.com/RomPatcher.js/). Escolha a ISO, escolha o patch e salve.
 - **No Windows**, pelo [Delta Patcher](https://github.com/marco-calautti/DeltaPatcher).
 - **No terminal**, com o xdelta3:
 
 ```
-xdelta3 -d -s "Bomberman Land 3 (Japan).iso" "Bomberman Land 3 PT-BR.xdelta" "Bomberman Land 3 PT-BR.iso"
+xdelta3 -d -s "Bomberman Land 3 (Japan).iso" "Bomberman.Land.3.PT-BR.xdelta" "Bomberman Land 3 PT-BR.iso"
 ```
 
 Se tudo deu certo, a ISO traduzida tem este SHA-1:
